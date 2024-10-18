@@ -54,6 +54,7 @@ fun Login(puput: Modifier = Modifier) {
         Text(text = "Login", //memberikan text "Login"
             modifier = puput,
             fontSize = 70.sp, //menetapkan ukuran font
+            fontWeight = FontWeight.Bold //menebalkan text
         )
     }
 }
