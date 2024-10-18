@@ -76,6 +76,7 @@ fun Login(puput: Modifier = Modifier) {
         Text(text = "Windya Nurmaretha", //memberikan text
             modifier = puput,
             style = TextStyle(
+                fontSize = 30.sp,
             )
         )
     }
