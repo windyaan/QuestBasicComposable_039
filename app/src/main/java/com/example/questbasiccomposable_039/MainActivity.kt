@@ -74,7 +74,6 @@ fun Login(puput: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Text(text = "Windya Nurmaretha", //memberikan text
-            modifier = puput,
             style = TextStyle(
                 fontSize = 30.sp,
                 fontFamily = FontFamily.Serif,
