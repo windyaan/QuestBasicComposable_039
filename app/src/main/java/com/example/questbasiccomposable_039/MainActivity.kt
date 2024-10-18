@@ -73,6 +73,11 @@ fun Login(puput: Modifier = Modifier) {
             fontSize = 50.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "Windya Nurmaretha", //memberikan text
+            modifier = puput,
+            style = TextStyle(
+            )
+        )
     }
 }
 
