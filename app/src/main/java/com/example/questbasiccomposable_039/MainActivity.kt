@@ -85,6 +85,7 @@ fun Login(puput: Modifier = Modifier) {
         Text(text = "20220140039",
             style = TextStyle(
                 fontSize = 30.sp,
+                fontStyle = FontStyle.Italic,
             )
         )
     }
