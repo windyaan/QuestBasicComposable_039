@@ -89,6 +89,9 @@ fun Login(puput: Modifier = Modifier) {
                 color =    Color.Blue
             )
         )
+        Image(painter = painterResource(id = R.drawable.fotodiri),
+            contentDescription = null,
+        )
     }
 }
 
