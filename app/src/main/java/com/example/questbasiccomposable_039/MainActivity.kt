@@ -91,6 +91,7 @@ fun Login(puput: Modifier = Modifier) {
         )
         Image(painter = painterResource(id = R.drawable.fotodiri),
             contentDescription = null,
+            Modifier.size(300.dp)
         )
     }
 }
