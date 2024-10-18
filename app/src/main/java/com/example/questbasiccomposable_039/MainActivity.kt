@@ -59,7 +59,8 @@ fun Login(puput: Modifier = Modifier) {
         Text(text = "Halaman Login", //memberikan text
             style = TextStyle(
                 fontSize = 30.sp,
-                fontFamily = FontFamily.Serif //menggunakan font serif
+                fontFamily = FontFamily.Serif, //menggunakan font serif
+                color =    Color.Blue, //Memberikan warna
         )
         )
     }
