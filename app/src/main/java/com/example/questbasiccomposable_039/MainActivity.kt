@@ -79,6 +79,7 @@ fun Login(puput: Modifier = Modifier) {
                 fontSize = 30.sp,
                 fontFamily = FontFamily.Serif,
                 fontWeight = FontWeight.Medium,
+                color =    Color.Red
             )
         )
     }
