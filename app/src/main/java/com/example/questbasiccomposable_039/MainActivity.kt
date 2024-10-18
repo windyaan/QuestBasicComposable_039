@@ -50,7 +50,10 @@ fun Login(puput: Modifier = Modifier) {
     Column(verticalArrangement = Arrangement.Center, //menyusun konten supaya beraa ditengah
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally)
-    {}
+    {
+        Text(text = "Login", //memberikan text "Login"
+        )
+    }
 }
 
 //@Composable
