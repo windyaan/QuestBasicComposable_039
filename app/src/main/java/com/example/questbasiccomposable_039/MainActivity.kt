@@ -77,6 +77,8 @@ fun Login(puput: Modifier = Modifier) {
             modifier = puput,
             style = TextStyle(
                 fontSize = 30.sp,
+                fontFamily = FontFamily.Serif,
+
             )
         )
     }
