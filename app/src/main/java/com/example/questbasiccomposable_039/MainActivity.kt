@@ -56,7 +56,11 @@ fun Login(puput: Modifier = Modifier) {
             fontSize = 70.sp, //menetapkan ukuran font
             fontWeight = FontWeight.Bold //menebalkan text
         )
-        Text(text = "Halaman Login" //memberikan text
+        Text(text = "Halaman Login", //memberikan text
+            style = TextStyle(
+                fontSize = 30.sp,
+                fontFamily = FontFamily.Serif //menggunakan font serif
+        )
         )
     }
 }
