@@ -52,6 +52,11 @@ fun Login(puput: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally)
     {
         Text(text = "Login", //memberikan text "Login"
+            modifier = puput,
+            fontSize = 70.sp, //menetapkan ukuran font
+            fontWeight = FontWeight.Bold //menebalkan text
+        )
+        Text(text = "Halaman Login" //memberikan text
         )
     }
 }
