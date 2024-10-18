@@ -71,6 +71,7 @@ fun Login(puput: Modifier = Modifier) {
         Text(text = "Nama", //memberikan text "Nama"
             modifier = puput,
             fontSize = 50.sp,
+            fontWeight = FontWeight.Bold
         )
     }
 }
