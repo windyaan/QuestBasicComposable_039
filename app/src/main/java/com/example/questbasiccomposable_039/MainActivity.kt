@@ -86,6 +86,7 @@ fun Login(puput: Modifier = Modifier) {
             style = TextStyle(
                 fontSize = 30.sp,
                 fontStyle = FontStyle.Italic,
+                color =    Color.Blue
             )
         )
     }
