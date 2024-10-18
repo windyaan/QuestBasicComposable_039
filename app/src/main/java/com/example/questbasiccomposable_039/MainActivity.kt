@@ -63,6 +63,10 @@ fun Login(puput: Modifier = Modifier) {
                 color =    Color.Blue, //Memberikan warna
         )
         )
+        Image(painter = painterResource
+            (id = R.drawable.umy), //menambahkan foto
+            contentDescription = null,
+        )
     }
 }
 
