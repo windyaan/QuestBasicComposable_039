@@ -66,6 +66,7 @@ fun Login(puput: Modifier = Modifier) {
         Image(painter = painterResource
             (id = R.drawable.umy), //menambahkan foto
             contentDescription = null,
+            Modifier.size(200.dp) //menetapkan size foto
         )
     }
 }
