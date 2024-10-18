@@ -68,6 +68,9 @@ fun Login(puput: Modifier = Modifier) {
             contentDescription = null,
             Modifier.size(200.dp) //menetapkan size foto
         )
+        Text(text = "Nama", //memberikan text "Nama"
+            modifier = puput,
+        )
     }
 }
 
