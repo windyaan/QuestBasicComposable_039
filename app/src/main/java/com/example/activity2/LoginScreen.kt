@@ -61,6 +61,11 @@ fun LoginScreen() {
             color = Color.Red
         )
 
-
+        Text(
+            text = "Windya Nurmaretha",
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Blue
+        )
     }
 }
