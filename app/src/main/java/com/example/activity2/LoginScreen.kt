@@ -67,5 +67,7 @@ fun LoginScreen() {
             fontWeight = FontWeight.Bold,
             color = Color.Blue
         )
+
+        Spacer(modifier = Modifier.height(5.dp))
     }
 }
