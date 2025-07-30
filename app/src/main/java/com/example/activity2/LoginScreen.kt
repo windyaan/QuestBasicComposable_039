@@ -51,5 +51,7 @@ fun LoginScreen() {
             contentDescription = "Logo Universitas",
             modifier = Modifier.size(300.dp)
         )
+
+        Spacer(modifier = Modifier.height(5.dp))
     }
 }
